@@ -1,0 +1,14 @@
+- type: gameMap
+  id: SaberLayoutPrototype04
+  mapName: 'Saber Layout Prototype 04'
+  mapPath: /Maps/_StarTrek/saber_layout_prototype_04.yml
+  minPlayers: 0
+  stations:
+    SaberLayoutPrototype04:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Saber Layout Prototype 04'
+        - type: StationJobs
+          availableJobs:
+            Passenger: [ -1, -1 ]
