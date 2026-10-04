@@ -1,0 +1,14 @@
+- type: gameMap
+  id: SaberHullPrototype01
+  mapName: 'Saber Hull Prototype 01'
+  mapPath: /Maps/_StarTrek/saber_hull_prototype_01.yml
+  minPlayers: 0
+  stations:
+    SaberHullPrototype01:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Saber Hull Prototype 01'
+        - type: StationJobs
+          availableJobs:
+            Passenger: [ -1, -1 ]
